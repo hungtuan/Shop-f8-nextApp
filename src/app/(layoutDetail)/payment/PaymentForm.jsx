@@ -75,7 +75,7 @@ export default function PaymentForm({ id, nameProduct }) {
           />
         </div>
         <div className="flex max-w-xl flex-wrap md:flex-nowrap gap-4 mx-auto mb-10">
-          <button className="bg-orange-700 px-5 py-2 rounded-lg">
+          <button type="submit" className="bg-orange-700 px-5 py-2 rounded-lg">
             Đặt ngay
           </button>
         </div>
